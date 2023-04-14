@@ -1,3 +1,7 @@
+**/.class
+
+out/*
+
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -19,4 +23,3 @@ buildNumber.properties
 
 .idea
 
-**/.class
