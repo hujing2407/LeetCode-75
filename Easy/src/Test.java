@@ -32,11 +32,15 @@ public class Test {
         String b = "111";
         AddBinary67 addBinary67 = new AddBinary67();
         String s = addBinary67.addBinary(a, b);
-*/
+
         int x = 2147395599;
         Sqrt69 sqrt69 = new Sqrt69();
         System.out.println(sqrt69.mySqrt(x));
-
+*/
+        int m[] = {1,2,3,0,0,0};
+        int n[] = {2,5,6};
+        MergeSortedArray88 mergeSortedArray88 = new MergeSortedArray88();
+        mergeSortedArray88.merge(m,3,n,3);
 
     }
 }
