@@ -22,10 +22,21 @@ public class Test {
         SearchInsertPosition35 searchInsertPosition35 = new SearchInsertPosition35();
         int i = searchInsertPosition35.searchInsert(nums, 1);
         System.out.println(i);
-        */
+
 
         int nums[] = {9,9};
         PlusOne66 plusOne66 = new PlusOne66();
         plusOne66.plusOne(nums);
+
+        String a = "1";
+        String b = "111";
+        AddBinary67 addBinary67 = new AddBinary67();
+        String s = addBinary67.addBinary(a, b);
+*/
+        int x = 2147395599;
+        Sqrt69 sqrt69 = new Sqrt69();
+        System.out.println(sqrt69.mySqrt(x));
+
+
     }
 }
