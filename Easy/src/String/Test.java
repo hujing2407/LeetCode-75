@@ -41,10 +41,12 @@ public class Test {
         int n[] = {2,5,6};
         Array.MergeSortedArray88 mergeSortedArray88 = new Array.MergeSortedArray88();
         mergeSortedArray88.merge(m,3,n,3);
-*/
+
     String s = "race a car";
     ValidPalindrome125 palindrome125 = new ValidPalindrome125();
     System.out.println(palindrome125.isPalindrome(s));
-
+*/
+    ValidAnagram242 validAnagram242 = new ValidAnagram242();
+    validAnagram242.isAnagram("anagram","nagaram");
   }
 }
