@@ -33,12 +33,12 @@ public class BinaryTreeInorderTraversal94 {
             return;
 
         /* first recur on left child */
-        Inorder(node.left, list);
+//        Inorder(node.left, list);
 
         /* then print the data of node */
-        list.add(node.val);
+//        list.add(node.val);
 
         /* now recur on right child */
-        Inorder(node.right,list);
+//        Inorder(node.right,list);
     }
 }

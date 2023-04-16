@@ -16,19 +16,19 @@ public class MinimumDepthofBinaryTree111 {
     }
 
     // TODO:
-    Deque<HashMap<TreeNode, Integer>> deque = new ArrayDeque<>();
-    TreeNode curr = root;
-    int depth = 1;
-    ArrayList<Object> list = new ArrayList<>();
-    map.put(curr,depth);
-    deque.addLast(map);
-
-    while ( deque.size() != 0 ){
-      map = deque.pollFirst();
-      if (map. == null) {
-
-      }
-    }
+//    Deque<HashMap<TreeNode, Integer>> deque = new ArrayDeque<>();
+//    TreeNode curr = root;
+//    int depth = 1;
+//    ArrayList<Object> list = new ArrayList<>();
+//    map.put(curr,depth);
+//    deque.addLast(map);
+//
+//    while ( deque.size() != 0 ){
+//      map = deque.pollFirst();
+//      if (map. == null) {
+//
+//      }
+//    }
 
     return 0;
   }

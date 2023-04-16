@@ -1,11 +1,11 @@
-import java.security.PublicKey;
+package String;
 
 /**
  * @author Jing Hu
  * @date Apr. 13 2023
  */
 public class Test {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
         /*
         String s = "III";
         RomanToInteger13 roman = new RomanToInteger13();
@@ -25,22 +25,26 @@ public class Test {
 
 
         int nums[] = {9,9};
-        PlusOne66 plusOne66 = new PlusOne66();
+        String.PlusOne66 plusOne66 = new String.PlusOne66();
         plusOne66.plusOne(nums);
 
         String a = "1";
         String b = "111";
-        AddBinary67 addBinary67 = new AddBinary67();
+        String.AddBinary67 addBinary67 = new String.AddBinary67();
         String s = addBinary67.addBinary(a, b);
 
         int x = 2147395599;
         Sqrt69 sqrt69 = new Sqrt69();
         System.out.println(sqrt69.mySqrt(x));
-*/
+
         int m[] = {1,2,3,0,0,0};
         int n[] = {2,5,6};
         MergeSortedArray88 mergeSortedArray88 = new MergeSortedArray88();
         mergeSortedArray88.merge(m,3,n,3);
+*/
+    String s = "race a car";
+    ValidPalindrome125 palindrome125 = new ValidPalindrome125();
+    System.out.println(palindrome125.isPalindrome(s));
 
-    }
+  }
 }
