@@ -8,18 +8,18 @@ public class Test {
   public static void main(String[] args) {
         /*
         String s = "III";
-        RomanToInteger13 roman = new RomanToInteger13();
+        String.RomanToInteger13 roman = new String.RomanToInteger13();
         System.out.println(roman.romanToInt(s));
 
         int nums[] = {3,2,2,3};
-        RemoveElement27 removeElement27 = new RemoveElement27();
+        Array.RemoveElement27 removeElement27 = new Array.RemoveElement27();
         int index = removeElement27.removeElement(nums, 3);
         for (int i = 0; i < index; i++) {
             System.out.println(nums[i]);
         }
 
         int nums[] = {1};
-        SearchInsertPosition35 searchInsertPosition35 = new SearchInsertPosition35();
+        Array.SearchInsertPosition35 searchInsertPosition35 = new Array.SearchInsertPosition35();
         int i = searchInsertPosition35.searchInsert(nums, 1);
         System.out.println(i);
 
@@ -39,7 +39,7 @@ public class Test {
 
         int m[] = {1,2,3,0,0,0};
         int n[] = {2,5,6};
-        MergeSortedArray88 mergeSortedArray88 = new MergeSortedArray88();
+        Array.MergeSortedArray88 mergeSortedArray88 = new Array.MergeSortedArray88();
         mergeSortedArray88.merge(m,3,n,3);
 */
     String s = "race a car";
