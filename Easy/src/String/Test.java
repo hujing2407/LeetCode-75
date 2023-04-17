@@ -34,7 +34,7 @@ public class Test {
         String s = addBinary67.addBinary(a, b);
 
         int x = 2147395599;
-        Sqrt69 sqrt69 = new Sqrt69();
+        Math.Sqrt69 sqrt69 = new Math.Sqrt69();
         System.out.println(sqrt69.mySqrt(x));
 
         int m[] = {1,2,3,0,0,0};
