@@ -1,4 +1,4 @@
-package String;
+package Map.String;
 
 import java.util.HashMap;
 import java.util.concurrent.atomic.AtomicBoolean;
