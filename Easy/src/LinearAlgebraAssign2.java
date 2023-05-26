@@ -17,7 +17,7 @@ public class LinearAlgebraAssign2 {
     gaussElimination(Ab);
 
     System.out.println("\nBackward Substitution:");
-    double[] res = backwardSubstitutionFunction(Ab);
+    double[] res = backwardSubstitution(Ab);
 
     System.out.println("\nThe final answer is:");
     for (int i = 0; i < res.length; i++) {
@@ -27,7 +27,7 @@ public class LinearAlgebraAssign2 {
 
   }
 
-  public static double[] forwardSubstitutionFunction(double[][] L) {
+  public static double[] forwardSubstitution(double[][] L) {
 
     int n = L.length;
     double[] x = new double[n];
@@ -41,7 +41,7 @@ public class LinearAlgebraAssign2 {
     return x;
   }
 
-  public static double[] backwardSubstitutionFunction(double[][] U) {
+  public static double[] backwardSubstitution(double[][] U) {
 
     int n = U.length;
     double[] x = new double[n];
