@@ -1,3 +1,4 @@
+package LinearAlgebra4MA3;
 
 /**
  * @author Jing Hu
@@ -81,7 +82,7 @@ public class LinearAlgebraAssign2 {
     System.out.println("----");
     for ( int i=0; i<n; i++ ) {
       for (int j = 0; j < n + 1; j++)
-        System.out.printf("%.2f\t", Ab[i][j]);
+        System.out.printf("%.5f\t", Ab[i][j]);
       System.out.println();
     }
   }
