@@ -18,7 +18,7 @@ public class Matrix {
     return det;
   }
 
-  private static double[][] inverse(double[][] matrix) {
+  public static double[][] inverse(double[][] matrix) {
     double[][] inverse = new double[matrix.length][matrix.length];
 
     // minors and cofactors
