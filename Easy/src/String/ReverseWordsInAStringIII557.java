@@ -1,4 +1,4 @@
-package Map.String;
+package String;
 
 /**
  * @author Jing Hu
