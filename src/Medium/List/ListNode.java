@@ -1,4 +1,4 @@
-package List;
+package Medium.List;
 
 /**
  * Definition for singly-linked list.

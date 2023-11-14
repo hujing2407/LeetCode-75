@@ -1,6 +1,4 @@
-package Medium;
-
-import org.w3c.dom.ls.LSInput;
+package Medium.Array;
 
 import java.util.ArrayList;
 import java.util.Arrays;

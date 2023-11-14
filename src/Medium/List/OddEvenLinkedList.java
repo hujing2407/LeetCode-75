@@ -1,4 +1,4 @@
-package List;
+package Medium.List;
 
 import java.util.List;
 

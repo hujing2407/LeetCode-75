@@ -1,4 +1,4 @@
-package String;
+package Medium.String;
 
 import Array.FindingUsersActiveMinutes;
 

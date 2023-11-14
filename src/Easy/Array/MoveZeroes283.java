@@ -5,7 +5,7 @@ package Easy.Array;
  * 1 ms
  * Beats
  * 99.98%
- *
+ * <p>
  * Memory
  * 44.1 MB
  * Beats
@@ -16,20 +16,13 @@ package Easy.Array;
  */
 public class MoveZeroes283 {
   public void moveZeroes(int[] nums) {
-    int i = 0;
-    int scan = 0;
-    while (scan < nums.length){
-      if (nums[scan] != 0) {
-        nums[i] = nums[scan];
-        i++;
-      }
+    if (nums == null || nums.length == 0) return;
 
-      scan++;
+    int index = 0;
+    for (int num : nums) {
+      if (num != 0) nums[index++] = num;
     }
 
-    while(i<nums.length){
-      nums[i] = 0;
-      i++;
-    }
+    while (index < nums.length) nums[index++] = 0;
   }
 }
