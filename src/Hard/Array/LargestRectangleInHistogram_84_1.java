@@ -1,4 +1,4 @@
-package Array;
+package Hard.Array;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -32,9 +32,7 @@ public class LargestRectangleInHistogram_84_1 {
 
             while (!stack.isEmpty() && newArr[i] < newArr[stack.peekLast()]) {
                 int h = newArr[stack.removeLast()];
-
                 int width = i - stack.peekLast() - 1;
-
                 area = Math.max(area, h * width);
             }
             stack.add(i);

@@ -1,7 +1,10 @@
-package Tree;
+package Easy.Tree;
 
-import javax.swing.tree.TreeNode;
+import DataStructure.TreeNode;
+
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
 
 /**
@@ -21,7 +24,7 @@ import java.util.List;
 public class BinaryTreeInorderTraversal94 {
 
 
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversal1(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         Inorder(root, list);
         return list;
@@ -33,12 +36,28 @@ public class BinaryTreeInorderTraversal94 {
             return;
 
         /* first recur on left child */
-//        Inorder(node.left, list);
+        Inorder(node.left, list);
 
         /* then print the data of node */
-//        list.add(node.val);
+        list.add(node.val);
 
         /* now recur on right child */
-//        Inorder(node.right,list);
+        Inorder(node.right,list);
+    }
+
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        Deque<TreeNode> stack = new ArrayDeque();
+        while(root !=null || !stack.isEmpty()){
+            while(root != null){
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            res.add(root.val);
+            root = root.right;
+        }
+
+        return res;
     }
 }

@@ -1,4 +1,4 @@
-package Math;
+package Medium.Math;
 
 import java.util.ArrayList;
 
