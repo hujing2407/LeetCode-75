@@ -6,10 +6,10 @@ package List;
  */
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * public class DataStructure.ListNode {
  *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
+ *     DataStructure.ListNode next;
+ *     DataStructure.ListNode(int x) { val = x; }
  * }
  */
 

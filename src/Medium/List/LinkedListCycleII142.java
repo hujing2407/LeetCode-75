@@ -1,5 +1,8 @@
-package Level_1;
-public class LinkedListCycleII {
+package Medium.List;
+
+import DataStructure.ListNode;
+
+public class LinkedListCycleII142 {
     public ListNode detectCycle(ListNode head) {
         ListNode slow = head, fast = head;
         while(fast != null && fast.next != null) {

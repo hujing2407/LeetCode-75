@@ -1,5 +1,6 @@
-import List.ListNode;
-import org.w3c.dom.Node;
+package Contest;
+
+import DataStructure.ListNode;
 
 import java.util.List;
 
@@ -10,23 +11,6 @@ import java.util.List;
 public class Contest358 {
   public static void main(String[] args) {
 
-  }
-
-  public class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-      this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-      this.val = val;
-      this.next = next;
-    }
   }
 
   public ListNode doubleIt(ListNode head) {

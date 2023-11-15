@@ -1,4 +1,6 @@
-package List;
+package Easy.List;
+
+import DataStructure.ListNode;
 
 /**Runtime
  7 ms
