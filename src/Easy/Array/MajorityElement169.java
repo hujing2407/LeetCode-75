@@ -1,4 +1,4 @@
-package Array;
+package Easy.Array;
 
 
 import static java.util.Arrays.sort;
@@ -22,20 +22,21 @@ public class MajorityElement169 {
     return helper(nums, 0, nums[0]);
   }
 
-  static int helper(int[] nums, int si, int ref) {
+  private static int helper(int[] nums, int i, int major) {
     int count = 0;
-    for (int i = si; i < nums.length; i++) {
-      if (ref == nums[i]) {
+    for (int j = i; j < nums.length; j++) {
+      if (major == nums[j]) {
         count++;
-      } else {
+      }else{
         count--;
       }
-
-      if (count == -1) {
-        return helper(nums, i, nums[i]);
+      if(count == -1){
+        return helper(nums,j,nums[j]);
       }
     }
-    return ref;
+    return major;
   }
+
+
 }
 
