@@ -1,6 +1,8 @@
 package List;
 
 
+import DataStructure.ListNode;
+
 /**
  * @author Jing Hu
  * @date Aug. 23 2023

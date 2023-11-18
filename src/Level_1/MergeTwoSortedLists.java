@@ -1,4 +1,7 @@
 package Level_1;
+
+import DataStructure.ListNode;
+
 public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode curr1 = list1;

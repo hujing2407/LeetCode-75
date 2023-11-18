@@ -1,5 +1,7 @@
 package Medium.List;
 
+import DataStructure.ListNode;
+
 import java.util.List;
 
 /**

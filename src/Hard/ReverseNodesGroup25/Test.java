@@ -1,4 +1,6 @@
-package ReverseNodesGroup25;
+package Hard.ReverseNodesGroup25;
+
+import DataStructure.ListNode;
 
 /**
  * @author Jing Hu
@@ -18,7 +20,7 @@ public class Test {
         // output the original List node
         outputList(head);
 
-        Solution s = new Solution();
+        ReverseNodesGroup25.Solution s = new ReverseNodesGroup25.Solution();
         ListNode node = s.reverseKGroup(head, 3);
 //        // output the reversed List node
         outputList(node);

@@ -1,5 +1,7 @@
 package ReverseNodesGroup25;
 
+import DataStructure.ListNode;
+
 import java.util.List;
 
 /**

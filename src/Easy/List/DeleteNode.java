@@ -1,9 +1,12 @@
-package List;
+package Easy.List;
 
 /**
  * @author Jing Hu
  * @date Aug. 23 2023
  */
+
+import DataStructure.ListNode;
+
 /**
  * Definition for singly-linked list.
  * public class DataStructure.ListNode {

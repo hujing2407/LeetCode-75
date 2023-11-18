@@ -1,4 +1,7 @@
 package Level_1;
+
+import DataStructure.ListNode;
+
 public class MiddleoftheLinkedList {
     public ListNode middleNode(ListNode head) {
         ListNode curr = head;

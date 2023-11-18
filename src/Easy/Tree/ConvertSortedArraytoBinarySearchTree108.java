@@ -1,4 +1,6 @@
-package Tree;
+package Easy.Tree;
+
+import DataStructure.TreeNode;
 
 /**
  * @author Jing Hu

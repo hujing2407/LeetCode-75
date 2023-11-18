@@ -1,6 +1,8 @@
 package List;
 
 
+import DataStructure.ListNode;
+
 /**
  * Runtime
  * 1 ms

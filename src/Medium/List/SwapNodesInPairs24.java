@@ -1,5 +1,7 @@
 package Medium.List;
 
+import DataStructure.ListNode;
+
 /**
  * @author Jing Hu
  * @date Nov. 13 2023
