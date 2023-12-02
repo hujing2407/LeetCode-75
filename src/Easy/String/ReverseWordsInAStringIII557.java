@@ -1,4 +1,4 @@
-package String;
+package Easy.String;
 
 /**
  * @author Jing Hu

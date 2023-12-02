@@ -1,3 +1,5 @@
+package Easy;
+
 /**
  * @author Jing Hu
  * @date May 15 2023

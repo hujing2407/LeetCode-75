@@ -1,4 +1,4 @@
-package Tree;
+package Easy.Tree;
 
 import javax.swing.tree.TreeNode;
 import java.util.ArrayList;

@@ -1,4 +1,6 @@
-package Array;
+package Medium.Array;
+
+import Medium.Array.ProductofArrayExceptSelf238;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -17,7 +19,7 @@ public class MedArrTest {
 
     private static void test714() {
         int[] prices = {4,5,5,2,4,3,5,5,2,3};
-        Stock714 s = new Stock714();
+        Array.Stock714 s = new Array.Stock714();
         System.out.println(s.maxProfit(prices,3));
     }
 
@@ -32,7 +34,7 @@ public class MedArrTest {
     }
 
     private static void test11() {
-        ContainerWithMostWater11 cww = new ContainerWithMostWater11();
+        Array.ContainerWithMostWater11 cww = new Array.ContainerWithMostWater11();
         int[] nums = {};
         System.out.println(cww.maxArea(nums));
     }
