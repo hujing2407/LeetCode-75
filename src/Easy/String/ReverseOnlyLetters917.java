@@ -1,10 +1,12 @@
 package Easy.String;
 
+import static java.lang.Character.isLetter;
+
 /**
  * @author Jing Hu
  * @date Aug. 15 2023
  */
-public class ReverseWordsInAStringIII557 {
+public class ReverseOnlyLetters917 {
   public String reverseWords1(String s) {
     char[] chars = s.toCharArray();
     for (int i = 0; i < chars.length; i++) {
@@ -28,22 +30,28 @@ public class ReverseWordsInAStringIII557 {
     }
   }
 
-  public static String reverseWords(String s) {
+  private static boolean isLetter(char c) {
+    if (c <= 'z' && c >= 'a') return true;
+    if (c <= 'Z' && c >= 'A') return true;
+    return false;
+  }
+
+  public static String reverseOnlyLetters(String s) {
     char[] chs = s.toCharArray();
-    int len = chs.length;
-    for (int i = 0; i < len; i++) {
-      while (i < len && chs[i] == ' ') i++;
-      int j = i;
-      while (j < len && chs[j] != ' ') j++;
-      if (i != j-1) {
-        reverse(chs,i,j-1);
-        i = j;
-      }
+    int l = 0, r = s.length() - 1;
+    while (l < r) {
+      while(l<r && !Character.isLetter(chs[l])) l++;
+      while(l<r && !Character.isLetter(chs[r])) r--;
+      char tmp = chs[l];
+      chs[l] = chs[r];
+      chs[r] = tmp;
+      l++;
+      r--;
     }
     return new String(chs);
   }
 
   public static void main(String[] args) {
-    System.out.println(reverseWords("Let's take LeetCode contest"));
+    System.out.println(reverseOnlyLetters("Test1ng-Leet(=code-Q!"));
   }
 }

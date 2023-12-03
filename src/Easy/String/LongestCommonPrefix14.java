@@ -1,5 +1,7 @@
 package Easy.String;
 
+import java.util.Arrays;
+
 /**
  * Runtime
  * 1 ms
@@ -16,6 +18,9 @@ package Easy.String;
  */
 public class LongestCommonPrefix14 {
     public String longestCommonPrefix(String[] strs) {
+        /**
+         *  0ms, 100%
+         */
         StringBuilder prefix = new StringBuilder();
         int len = strs.length;
         int minLen = Integer.MAX_VALUE;
@@ -33,5 +38,19 @@ public class LongestCommonPrefix14 {
             prefix.append(curr);
         }
         return prefix.toString();
+
+        /**
+         *  1ms, 71%
+         */
+//        Arrays.sort(strs);
+//        int n = strs.length;
+//        StringBuilder sb = new StringBuilder();
+//        String s1 = strs[0],s2 = strs[n-1];
+//        int len1 = Math.max(s1.length(),s2.length());
+//        for (int i = 0; i < len1; i++) {
+//            if(s1.charAt(i) == s2.charAt(i)) sb.append(s1.charAt(i));
+//            else break;
+//        }
+//        return sb.toString();
     }
 }
