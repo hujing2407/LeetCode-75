@@ -1,0 +1,10 @@
+  private boolean check() {
+    Iterator<Map.Entry<Character, Integer>> iterator = need.entrySet().iterator();
+    while (iterator.hasNext()) {
+      Map.Entry<Character, Integer> entry = iterator.next();
+      Character key = entry.getKey();
+      Integer value = entry.getValue();
+      if (window.getOrDefault(key, 0) < value) return false;
+    }
+    return true;
+  }

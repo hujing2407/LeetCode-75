@@ -17,47 +17,17 @@ package Easy.String;
 public class ValidPalindrome125 {
   public boolean isPalindrome(String s) {
 
-    int front = 0;
-    int rear = s.length() - 1;
-
-    while (front < rear) {
-      while (front < s.length() && !(isAlphabelta(s.charAt(front)) || isNum(s.charAt(front)))) {
-        front++;
-      }
-      while (rear >= 0 && !(isAlphabelta(s.charAt(rear)) || isNum(s.charAt(rear)))) {
-        rear--;
-      }
-      if (front == s.length() || rear == -1) return true;
-
-      int diff = s.charAt(rear) - s.charAt(front);
-
-      if (isNum(s.charAt(front)) || isNum(s.charAt(rear))) {
-        if (diff != 0) {
-          return false;
-        }
-      }
-      if (diff != 0 && diff != 32 && diff != -32) {
+    int n = s.length(), l = 0, r = n - 1;
+    while (l < r) {
+      while (l < n && !Character.isLetterOrDigit(s.charAt(l))) l++;
+      while (r >= 0 && !Character.isLetterOrDigit(s.charAt(r))) r--;
+      if (l < n && r >= 0 &&
+          Character.toLowerCase(s.charAt(l)) != Character.toLowerCase(s.charAt(r))) {
         return false;
       }
-      front++;
-      rear--;
-
+      l++;
+      r--;
     }
     return true;
-  }
-
-  private boolean isAlphabelta(char c) {
-    if (c - 'A' >= 0 && c - 'Z' <= 0) {
-      return true;
-    }
-    if (c - 'a' >= 0 && c - 'z' <= 0) {
-      return true;
-    } else return false;
-  }
-
-  private boolean isNum(char c) {
-    if (c - '0' >= 0 && c - '9' <= 0) {
-      return true;
-    } else return false;
   }
 }

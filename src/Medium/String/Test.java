@@ -1,6 +1,7 @@
 package Medium.String;
 
 import Array.FindingUsersActiveMinutes;
+import SlidingWindow.LongestSubString;
 
 /**
  * @author Jing Hu
@@ -8,10 +9,9 @@ import Array.FindingUsersActiveMinutes;
  */
 public class Test {
     public static void main(String[] args) {
-//        test_longestSubString();
 //        test_1461();
 //        test();
-        test1();
+//        test1();
     }
 
     private static void test1() {
@@ -43,12 +43,5 @@ public class Test {
         System.out.println(cabc.hasAllCodes(s, k));
     }
 
-    private static void test_longestSubString() {
-        //        String s = "aabaab!bb";
-//        String s = "dvdf";
-        String s = "cdd";
-        LongestSubString solution = new LongestSubString();
-        int length = solution.lengthOfLongestSubstring(s);
-        System.out.println(length);
-    }
+
 }
