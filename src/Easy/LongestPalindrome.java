@@ -1,4 +1,4 @@
-package Level_1;
+package Easy;
 import java.util.HashMap;
 
 public class LongestPalindrome {

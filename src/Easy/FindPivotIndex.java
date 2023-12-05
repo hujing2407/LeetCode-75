@@ -1,4 +1,4 @@
-package Level_1;
+package Easy;
 class FindPivotIndex{
     public int pivotIndex(int[] nums) {
         if(nums.length==0) return -1;

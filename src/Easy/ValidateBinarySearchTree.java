@@ -1,4 +1,4 @@
-package Level_1;
+package Easy;
 public class ValidateBinarySearchTree {
     public boolean isValidBST(TreeNode root) {
         return isValidBST(root,Long.MIN_VALUE,Long.MAX_VALUE);

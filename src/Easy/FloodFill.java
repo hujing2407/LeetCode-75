@@ -1,4 +1,4 @@
-package Level_1;
+package Easy;
 public class FloodFill {
     // public int[][] floodFill(int[][] image, int sr, int sc, int color) {
     //     int temp = image[sr][sc];

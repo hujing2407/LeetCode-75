@@ -1,4 +1,4 @@
-package Level_1;
+package Easy;
 import java.util.Arrays;
 
 public class RunningSumof1dArray {

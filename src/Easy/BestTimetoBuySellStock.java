@@ -1,4 +1,4 @@
-package Level_1;
+package Easy;
 public class BestTimetoBuySellStock {
     public int maxProfitForMulti(int[] prices) {
         int low = prices[0];

@@ -1,4 +1,4 @@
-package JobCodility.AgilityPR;
+package Topics.SlidingWindow.JobCodility.AgilityPR;
 
 /**
  * @author Jing Hu

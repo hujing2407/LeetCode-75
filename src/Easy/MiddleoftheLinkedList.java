@@ -1,4 +1,4 @@
-package Level_1;
+package Easy;
 
 import DataStructure.ListNode;
 

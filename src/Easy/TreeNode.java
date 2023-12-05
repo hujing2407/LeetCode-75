@@ -1,4 +1,4 @@
-package Level_1;
+package Easy;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {

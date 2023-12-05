@@ -1,4 +1,4 @@
-package Level_1;
+package Easy;
 public class IsSubsequence {
     public boolean isSubsequence(String s, String t) {
         if (s.length() == 0)  return true;

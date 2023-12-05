@@ -1,9 +1,9 @@
-package Level_2;
+package Medium.Math;
 
 import java.util.LinkedList;
 import java.util.List;
 
-public class SpiralMatrix {
+public class SpiralMatrix54 {
     /**
      * Success
      * Details

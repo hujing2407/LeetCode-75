@@ -1,8 +1,4 @@
-package JobCodility.AgilityPR;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+package Topics.SlidingWindow.JobCodility.AgilityPR;
 
 /**
  * @author Jing Hu

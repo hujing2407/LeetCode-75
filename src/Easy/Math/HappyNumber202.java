@@ -1,8 +1,8 @@
-package Level_2;
+package Easy.Math;
 import java.util.HashSet;
 import java.util.Set;
 
-public class HappyNumber {
+public class HappyNumber202 {
     
     public boolean isHappy(int n) {
         int sum = 0;

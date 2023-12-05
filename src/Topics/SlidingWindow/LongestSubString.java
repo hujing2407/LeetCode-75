@@ -1,7 +1,4 @@
-package SlidingWindow;
-
-import java.util.Deque;
-import java.util.LinkedList;
+package Topics.SlidingWindow;
 
 /**
  * @author Jing Hu

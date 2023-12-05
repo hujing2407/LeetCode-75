@@ -1,4 +1,4 @@
-package Level_1;
+package Easy;
 public class LowestCommonAncestorBST {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(root.right != null&&root.val < Math.min(p.val,q.val)  ){
