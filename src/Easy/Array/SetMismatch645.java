@@ -1,4 +1,4 @@
-package Array;
+package Easy.Array;
 
 /**
  * @author Jing Hu
