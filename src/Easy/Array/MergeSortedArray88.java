@@ -18,25 +18,15 @@ import java.util.Arrays;
  */
 public class MergeSortedArray88 {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int[] newNums = new int[m + n];
-        int index = 0;
-        int mp = 0;
-        int np = 0;
-        while (mp<m && np<n){
-
-            if (nums1[mp] < nums2[np]) {
-                newNums[index++] = nums1[mp++];
-            }else{
-                newNums[index++] = nums2[np++];
-            }
+        int pos = m + n - 1;
+        m--;
+        n--;
+        while(m >= 0 && n >= 0){
+            if(nums1[m] > nums2[n]) nums1[pos--] = nums1[m--];
+            else nums1[pos--] = nums2[n--];
         }
-        if(mp == m){
-            while(np<n) newNums[index++] = nums2[np++];
-        }else{
-            while(mp<m) newNums[index++] = nums1[mp++];
-        }
-        for (int i = 0; i < m+n; i++) {
-            nums1[i] = newNums[i];
+        if(m < 0) {
+            for(int i = 0; i<= n; i++) nums1[i] = nums2[i];
         }
     }
 }

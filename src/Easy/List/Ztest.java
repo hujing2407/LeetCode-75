@@ -1,4 +1,4 @@
-package List;
+package Easy.List;
 
 import DataStructure.ListNode;
 import Easy.List.PalindromeLinkedList234;
