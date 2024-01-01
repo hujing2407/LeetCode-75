@@ -36,4 +36,11 @@ public class IsomorphicStrings205 {
         }
         return true;
     }
+
+
+
+    public static void main(String[] args) {
+        IsomorphicStrings205 is = new IsomorphicStrings205();
+        is.isIsomorphic("foo","bar");
+    }
 }
